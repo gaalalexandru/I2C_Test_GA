@@ -208,7 +208,7 @@ int main(void)
 		if(Xacc != 0)
 		{
 			UART_OutString("\r\nTest Passed\r\n");
-			UART_OutUDec(Xacc);UART_OutUDec(Xacc);
+			UART_OutUDec(Xacc);
 			//printf("%d\n",Xacc);
 		}
 		else
